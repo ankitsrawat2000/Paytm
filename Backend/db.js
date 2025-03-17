@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect('mongodb+srv://ankitsr:aljona%409718@cluster0.ejhyy.mongodb.net/paytm');
+    await mongoose.connect('');
 
     const userSchema = new mongoose.Schema({
         username : {
